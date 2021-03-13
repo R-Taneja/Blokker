@@ -4,7 +4,7 @@
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["https://instagram.com/*", "http://instagram.com/*"],
+      "matches": ["https://www.instagram.com/*", "http://www.instagram.com/*", "https://instagram.com/*", "http://instagram.com/*"],
       "run_at": "document_start",
       "all_frames": true,
       "js": ["popup.js"]
