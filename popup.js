@@ -1,4 +1,4 @@
-const DEL_SELECTOR = '.s4Iyt';
+const DEL_SELECTOR = '.ku8Bn ';
 
 const mo = new MutationObserver(onMutation);
 onMutation([{addedNodes: [document.documentElement]}]);
