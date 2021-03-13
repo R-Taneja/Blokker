@@ -1,15 +1,18 @@
 {
-  "manifest_version": 2,
-
   "name": "Blokker",
   "description": "Blocker blocks you from accessing the feed, stories, and explore features on Instagram's web app, but still lets you manage your direct messages.",
   "version": "1.0",
-
+  "content_scripts": [
+    {
+      "matches": ["https://instagram.com/*", "http://instagram.com/*"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "js": ["popup.js"]
+    }
+  ],
   "browser_action": {
-   "default_icon": "icon.png",
-   "default_popup": "popup.html"
-  },
-  "permissions": [
-   "activeTab"
-   ]
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+   },
+  "manifest_version": 2
 }
