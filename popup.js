@@ -1,4 +1,6 @@
-const DEL_SELECTOR = '.ku8Bn ';
+//To blank out user profiles too (ex: the whole page on https://www.instagram.com/rohan.taneja_/), add this class to the string below: .v9tJq
+
+const DEL_SELECTOR = '.VideM, ._1SP8R, .pbgfb, .XTCLo, .MxEZm';
 
 const mo = new MutationObserver(onMutation);
 onMutation([{addedNodes: [document.documentElement]}]);
