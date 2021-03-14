@@ -32,3 +32,6 @@ function observe() {
     childList: true,
   });
 }
+
+// Adds a message to the blocked Instagram home page
+alert("Blokker")
