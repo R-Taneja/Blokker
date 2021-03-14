@@ -33,5 +33,4 @@ function observe() {
   });
 }
 
-// Adds a message to the blocked Instagram home page
-alert("Blokker")
+alert("Blokker has hidden all the content from this page. Navigate to the direct messages tab to continue using Instagram.")
