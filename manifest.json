@@ -1,6 +1,6 @@
 {
   "name": "Blokker",
-  "description": "Blocker blocks you from accessing the feed, stories, and explore features on Instagram's web app, but still lets you manage your direct messages.",
+  "description": "Blokker is the first practical site blocker for Chrome. Blokker only blocks the most addicting sections of social media sites, so you can focus on your work without ignoring your friends.",
   "version": "1.0",
   "content_scripts": [
     {
