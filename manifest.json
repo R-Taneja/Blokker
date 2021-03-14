@@ -7,12 +7,12 @@
       "matches": ["https://www.instagram.com/*", "http://www.instagram.com/*", "https://instagram.com/*", "http://instagram.com/*"],
       "run_at": "document_start",
       "all_frames": true,
-      "js": ["popup.js"]
+      "js": ["blokker.js"]
     }
   ],
   "browser_action": {
     "default_icon": "icon.png",
-    "default_popup": "popup.html"
+    "default_popup": "blokker.html"
    },
   "manifest_version": 2
 }
