@@ -1,6 +1,6 @@
 {
   "name": "Blokker",
-  "description": "Blokker is the first practical site blocker for Chrome. Blokker only blocks the most addicting sections of social media sites, so you can focus on your work without ignoring your friends.",
+  "description": "Blokker is the first practical social media site blocker that still lets you access essential features like direct messaging.",
   "version": "1.0",
   "content_scripts": [
     {
