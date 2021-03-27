@@ -1,7 +1,7 @@
 {
   "name": "Blokker",
-  "description": "Blokker is the first practical social media site blocker that still lets you access essential features like direct messaging.",
-  "version": "1.0",
+  "description": "A practical site blocker that still lets you access essential features like direct messaging.",
+  "version": "1.1",
   "content_scripts": [
     {
       "matches": ["https://www.instagram.com/*", "http://www.instagram.com/*", "https://instagram.com/*", "http://instagram.com/*"],
